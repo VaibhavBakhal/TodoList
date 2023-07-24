@@ -1,6 +1,6 @@
 [build]
   functions = "functions"
-  command = "CI= npm run build"
+  command = "npm run build"
 
 [[redirects]]
   force = true
