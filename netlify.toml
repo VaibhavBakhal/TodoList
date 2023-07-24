@@ -1,12 +1,7 @@
 [build]
- functions="functions"
-  
+  functions = "functions"
+  command = "CI= npm run build"
 
-[build]
-command = “CI= npm run build”
-
-
-  
 [[redirects]]
   force = true
   from = "/api/*"
