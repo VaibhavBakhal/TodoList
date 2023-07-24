@@ -5,8 +5,7 @@
   "main": "function/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/netlify-lambda serve function",
-    "build": "./node_modules/.bin/netlify-lambda build function"
+    "build": "netlify deploy --prod"
   },
   "author": "vaibhav",
   "license": "ISC",
